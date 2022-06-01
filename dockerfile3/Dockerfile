@@ -1,6 +1,5 @@
 FROM mysql:latest
 MAINTAINER himgoyal81@gmail.com
-ENV MYSQL_USER admin
 ENV MYSQL_ROOT_PASSWORD password
 ENV MYSQL_DATABASE: testapp
 EXPOSE 3306
